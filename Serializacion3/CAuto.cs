@@ -22,6 +22,16 @@ namespace Serializacion3
         }
 
 
+        //Método para presentar la información
+
+        public void PresentarInformacion()
+        {
+            Console.WriteLine("El modelo de tu carro es {0}", modelo);
+            Console.WriteLine("El costo de tu carro es " + precio);
+            Console.WriteLine("-----------");
+
+        }
+
 
 
     }
